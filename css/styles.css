@@ -9,62 +9,7 @@
 /* team */
 
 /* Partners */
-.partners-sections {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.partners-list {
-  display: flex;
-}
-.partners-list-icon {
-  fill: var(--fill);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0ms;
-}
-.partners-list-item {
-  display: block;
-  width: 170px;
-  height: 92px;
-  box-sizing: border-box;
-}
-.partners-list-item:not(:last-child) {
-  margin-right: 30px;
-  transition-property: border, box-sizing, border-radius;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0ms;
-}
-/* .partners-list-item:focus,
-.partners-list-item:hover {
-  border: 1px solid var(--accent-color);
-  box-sizing: border-box;
-  border-radius: 4px;
-} */
-.partners-list-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  padding: 16px 32px;
-  transition-property: fill, border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0ms;
-}
-.partners-list-link:hover,
-.partners-list-link:focus {
-  border-color: var(--accent-color);
-  outline: none;
-}
-.partners-list-link:hover .partners-list-icon,
-.partners-list-link:focus .partners-list-icon {
-  fill: var(--accent-color);
-}
+
 /* footer */
 .address {
   font-style: normal;
