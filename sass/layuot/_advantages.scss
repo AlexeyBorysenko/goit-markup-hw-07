@@ -5,11 +5,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.advantages-list:not(:last-child) {
-  margin-right: 30px;
-}
 .advantages-list {
   width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .advantages-titel {
   font-weight: 700;

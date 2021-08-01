@@ -6,10 +6,20 @@
 @import './basse/container';
 // COMPONENTS
 @import './components/modal-btn';
-@import './components/social-list-team';
+@import './components/social-list';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
+
 // LAYUOT
+
 @import './layuot/header';
 @import './layuot/hero';
 @import './layuot/advantages';
 @import './layuot/job';
 @import './layuot/team';
+@import './layuot/partners';
+@import './layuot/footer';
+@import './layuot/sybscribe';
+@import './layuot/portfolio';
+@import './layuot/adress';

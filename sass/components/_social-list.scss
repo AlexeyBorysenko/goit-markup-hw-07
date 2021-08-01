@@ -15,11 +15,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
-}
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-  fill: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: #ffffff;
+  }
 }
 .social-list {
   display: flex;
@@ -59,12 +59,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
+  &:hover,
+  &:focus {
+    fill: white;
+    background-color: var(--accent-color);
+  }
 }
-.footer-social-list-link:hover,
-.footer-social-list-link:focus {
-  fill: white;
-  background-color: var(--accent-color);
-}
+
 .footer-social-titel {
   text-transform: uppercase;
   font-weight: 700;
