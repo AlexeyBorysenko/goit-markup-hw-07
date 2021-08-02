@@ -4,8 +4,10 @@
 .address-box {
   width: 231px;
 }
-.footer-list-item:not(:last-child) {
-  margin-bottom: 9px;
+.footer-list-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 .footer-list-address {
   display: flex;
